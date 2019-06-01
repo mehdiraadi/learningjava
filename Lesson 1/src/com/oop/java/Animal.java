@@ -25,5 +25,8 @@ public class Animal {
         System.out.println("My name is "+name);
     }
 
+    public void eat(){
+        System.out.println("I eat yummy food");
+    }
 
 }
