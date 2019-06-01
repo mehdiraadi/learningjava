@@ -22,7 +22,13 @@ public class Zoo {
        fish1.speak();
        fish1.swim();
 
+       Chicken chick1= new Chicken ("birdtypr",2, "chicky", 3, "yellow");
+
+       chick1.fly();
+
     }
+
+
 
 
 
