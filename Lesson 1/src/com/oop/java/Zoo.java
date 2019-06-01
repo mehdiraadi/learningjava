@@ -12,7 +12,7 @@ public class Zoo {
         Bird bird1 = new Bird("jh" ,2 ,"birdy", 2, "white" );
 
 
-        bird1.fly();
+        //bird1.fly();
         bird1.eat();
         bird1.speak();
 
@@ -24,7 +24,7 @@ public class Zoo {
 
        Chicken chick1= new Chicken ("birdtypr",2, "chicky", 3, "yellow");
 
-       chick1.fly();
+       //chick1.fly();
 
     }
 
