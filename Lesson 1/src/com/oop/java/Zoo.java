@@ -3,11 +3,11 @@ package com.oop.java;
 public class Zoo {
 
     public static void main(String[] args) {
-        Animal tiger = new Animal("tiger",4, "jack",5, "yellow");
+        //Animal tiger = new Animal("tiger",4, "jack",5, "yellow");
 
-        tiger.speak();
+        //tiger.speak();
 
-        tiger.eat();
+        //tiger.eat();
 
         Bird bird1 = new Bird("jh" ,2 ,"birdy", 2, "white" );
 
@@ -26,6 +26,12 @@ public class Zoo {
 
        //chick1.fly();
 
+        Sparrow sparrow1 =new Sparrow("spar",2,"sp",4, "blue");
+         sparrow1.fly();
+
+         Fish fish2 = new Fish("",2,"tu",2,"golden");
+         fish2.swim();
+         fish2.move();
     }
 
 

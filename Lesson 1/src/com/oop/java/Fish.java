@@ -9,4 +9,9 @@ public class Fish extends Animal{
 
         System.out.println("I can swim");
     }
+
+    @Override
+    public void move() {
+        System.out.println("moving");
+    }
 }

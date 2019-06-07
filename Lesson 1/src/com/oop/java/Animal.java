@@ -1,6 +1,6 @@
 package com.oop.java;
 
-public class Animal {
+public abstract class Animal {
 
     String type;
     int noOfLegs ;
@@ -28,5 +28,8 @@ public class Animal {
     public void eat(){
         System.out.println("I eat yummy food");
     }
+
+    public abstract void move();
+
 
 }
